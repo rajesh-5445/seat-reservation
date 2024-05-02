@@ -1,0 +1,6 @@
+2024-05-01 22:13:54.289301+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SEATING_PLAN" not found (this database is empty); SQL statement:
+insert into seating_plan (name,section,id) values (?,?,default) [42104-224]
+2024-05-01 22:14:17.561441+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SEATING_PLAN" not found (this database is empty); SQL statement:
+insert into seating_plan (name,section,id) values (?,?,default) [42104-224]

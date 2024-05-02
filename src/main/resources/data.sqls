@@ -1,0 +1,19 @@
+-- SeatingPlan --
+INSERT INTO SeatingPlan (name, section) VALUES ("1A", "A");
+INSERT INTO SeatingPlan (name, section) VALUES ("2A", "A")
+INSERT INTO SeatingPlan (name, section) VALUES ("3A", "A")
+INSERT INTO SeatingPlan (name, section) VALUES ("4A", "A")
+INSERT INTO SeatingPlan (name, section) VALUES ("5A", "A")
+INSERT INTO SeatingPlan (name, section) VALUES ("1B", "B");
+INSERT INTO SeatingPlan (name, section) VALUES ("2B", "B")
+INSERT INTO SeatingPlan (name, section) VALUES ("3B", "B")
+INSERT INTO SeatingPlan (name, section) VALUES ("4B", "B")
+INSERT INTO SeatingPlan (name, section) VALUES ("5B", "B")
+
+-- User --
+INSERT INTO SeatingPlan (firstName, lastName, emailId) VALUES ("Allen", "Mott", "allen.mott@cloudbees.com");
+INSERT INTO SeatingPlan (firstName, lastName, emailId) VALUES ("James", "Hopper", "james.hopper@cloudbees.com");
+INSERT INTO SeatingPlan (firstName, lastName, emailId) VALUES ("Heedoo", "Moon", "Heedoo.moon@cloudbees.com");
+
+-- Trip --
+INSERT INTO Trip (origin, destination, departureAt, arrivalAt, fair) VALUES ("London", "France", "2024-05-01T16:02:33+0000", "2024-05-01T18:02:33+0000", 5);
